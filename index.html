@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Untuk Kamu, Teman Spesial</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Dancing Script', cursive;
+      background: linear-gradient(to bottom right, #ffe6e6, #fff);
+      color: #333;
+      text-align: center;
+      padding: 30px;
+      background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
+    }
+    h1 {
+      font-size: 3em;
+      color: #d63384;
+    }
+    .surat {
+      background: #fff0f5;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 600px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+    .galeri img {
+      width: 100px;
+      margin: 10px;
+      border-radius: 15px;
+      border: 3px solid #ffa8c5;
+    }
+    #quote {
+      font-style: italic;
+      margin-top: 30px;
+      font-size: 1.2em;
+      color: #777;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <h1>Hai, Teman Spesial 🌸</h1>
+
+  <div class="surat">
+    <p>Terima kasih karena kamu selalu ada, meskipun kamu nggak pernah sadar betapa berharganya dirimu buat orang-orang di sekitarmu. Termasuk aku 🌷</p>
+    <p>Kamu lucu, kuat, dan selalu tahu cara bikin orang lain tersenyum. Tetap jadi kamu ya, karena dunia butuh lebih banyak orang kayak kamu 💗</p>
+  </div>
+
+  <h2>Kenangan Kita 📸</h2>
+  <div class="galeri">
+    <img src="https://placekitten.com/100/100" />
+    <img src="https://placekitten.com/101/100" />
+    <img src="https://placekitten.com/102/100" />
+  </div>
+
+  <div id="quote"></div>
+
+  <audio autoplay loop>
+    <source src="https://example.com/musik.mp3" type="audio/mpeg" />
+    Maaf, browsermu tidak mendukung pemutar audio.
+  </audio>
+
+  <script>
+    const quotes = [
+      "Kamu adalah versi terbaik dari dirimu sendiri.",
+      "Terima kasih sudah jadi cahaya di hari-hari gelap.",
+      "Persahabatan kita itu hadiah yang terus terasa hangat.",
+      "Dunia lebih indah karena ada kamu di dalamnya 💖"
+    ];
+    document.getElementById("quote").innerText = quotes[Math.floor(Math.random() * quotes.length)];
+  </script>
+
+</body>
+      </html>
